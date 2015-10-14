@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css" media="screen">
+
+	#wrapper {
+		width: 70%;
+		margin: 0 auto;
+		border: 1px solid black 
+	}
+
+	#to-append{
+		display: block;
+		width: 90%;
+		margin: 2% auto;
+		height: 10%;
+	}
+</style>
+</head>
+<body>
+
+<div id="wrapper">
+
+<h2>Click button to change content below, from ajax_info.txt</h2>
+<pre>
+	<div id="myDiv">
+	<p>Hello Friends!</p>
+</div>
+</pre>
+
+<button id="change-btn" type="button">Change Content</button>
+
+<div>
+	<h2>Enter to add below</h2>
+	<textarea id="to-append" rows="20" cols="10"></textarea>
+	<button id="append-btn" type="button">Append to Textfile Content</button>
+</div>
+
+</div>
+
+<script src="js/quiz.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>

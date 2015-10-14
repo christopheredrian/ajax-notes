@@ -1,0 +1,5 @@
+1. A simple AJAX GET request to  a file on the server.
+2. In the same index.html page create a text box, inside the text box
+the user is going to submit text file contents and that will be appended
+to the ajax_info.txt, After submitting the GET ajax request function must be called.
+This time use the POST method.

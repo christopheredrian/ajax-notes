@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Minified CSS -->
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<!-- Optional theme -->
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-theme.min.css">
+	<title>Using AJAX with forms using JSON</title>
+</head>
+<body>
+	<div class="container">
+		<h1>Using AJAX with forms using JSON</h1>
+
+		<form id="register-form" accept-charset="utf-8">
+			<div class="form-group">
+				<label for="email">Email Address (This will also act as your username)</label>
+				<input class="form-control" type="email" id="email" name="email" value="">
+			</div>
+			<div class="row">
+				<div class="form-group col-md-6">
+					<label for="firstName">First Name</label>
+					<input class="form-control" type="text" id="firstName" name="firstName" value="">
+				</div>
+				<div class="form-group col-md-6">
+					<label for="lastName">Last Name</label>
+					<input class="form-control" type="text" id="lastName" name="lastName" value="">
+				</div>
+			</div>
+			
+			<div class="form-group">
+				<label for="password">Password</label>
+				<input class="form-control" type="password" id="password" name="password" value="">
+			</div>
+			<div class="form-group">
+				<label for="rePassword">Re-enter password</label>
+				<input class="form-control" type="password" id="rePassword" name="rePassword" value="">
+			</div>
+			<div class="form-group">
+				<div class="radio">
+					<label for="">
+						<input type="radio" id="male" name="gender" value="male">Male
+					</label>
+				</div>
+				<div class="radio">
+					<label for="">
+						<input type="radio" id="female" name="gender" value="female">Female
+					</label>
+				</div>
+			</div>
+			<button type="submit" class="btn btn-default">Submit</button>
+		</form>
+		<div id="responseDiv">
+			
+		</div>
+	</div>
+	<!-- Compiled jquery -->
+	<script src="js/jquery.min.js" ></script>
+	<!-- Compiled and minified Bootstrap JavaScript -->
+	<script src="bootstrap/js/bootstrap.js"></script>
+	<script src="js/ajax-forms.js"></script>
+</body>
+</html>
